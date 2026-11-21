@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.runtime/
+ansible/vault.yml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+*.tfvars
+*.tfvars.json
+*.tfbackend
+
+# Deployment and generated files
+.deployment/
+.DS_Store
+
+# Sensitive Ansible files
+ansible/vault.yml
+
+# Terraform environment configurations
+terraform/*.tfvars
+
+# Project document
+AWS_Infrastructure_Monitor_Project_Doc.docx
